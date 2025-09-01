@@ -4,10 +4,66 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+    .card {
+    background: #b2ffaf;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+    }
+    .card h2 {
+    color: #2d3e50;
+    font-size: 24px;
+    border-bottom: 3px solid #6cff78;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    }
+    .card p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.7;
+    }
+    .image-card img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px;
+    }
+    </style>
   </head>
   <body>
-    <h1 class="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div>
+      <nav class="bg-green-900 text-white px-5 py-4 flex justify-between items-center shadow-md">
+      <h1 class="text-2xl font-bold">amazon</h1>
+        <ul class="flex gap-3" >
+          <li><a href="index.html">หน้าแรก</a></li>
+          <li><a href="amazon1.html">ภูมิศาสตร์ของป่าอเมซอน</a></li>
+          <li><a href="amazon2.html">ความหลากหลายทางชีวภาพ</a></li>
+          <li><a href="amazon3.html">บทบาททางระบบนิเวศ</a></li>
+          <li><a href="amazon4.html">ชนพื้นเมืองและวัฒนธรรม</a></li>
+          <li><a href="amazon5.html">ภัยคุกคามและการทำลายป่า</a></li>
+          <li><a href="amazon6.html">ความพยายามในการอนุรักษ์</a></li>
+          <li><a href="amazon7.html">อนาคตของป่าอเมซอน</a></li>
+          <li><a href="quiz.html">แบบทดสอบamazon</a></li>
+        </ul>
+      </nav>
+    </div>
+
+      <div class="card">
+          <h2>พืชพรรณ</h2>
+          <p>ในป่าอเมซอนพบพืชมากกว่า 40,000 ชนิด ส่วนใหญ่เป็นพืชเฉพาะถิ่นที่ไม่สามารถพบได้ที่อื่น เช่น ไม้ยืนต้นสูงใหญ่ ต้นยางพารา เถาวัลย์ กล้วยไม้ 
+            และพืชสมุนไพรท้องถิ่นหลายชนิด พืชเหล่านี้ไม่เพียงแต่ช่วยดูดซับคาร์บอนเท่านั้น แต่ยังเป็นแหล่งอาหารและยารักษาโรค</p>
+          <h2>สัตว์ป่า</h2>
+          <p>สัตว์ที่อาศัยอยู่ในป่าอเมซอนมีจำนวนมหาศาล เช่น นกมากกว่า 1,300 ชนิด สัตว์เลี้ยงลูกด้วยนมกว่า 400 ชนิด สัตว์เลื้อยคลาน กบ และแมลงนับไม่ถ้วน 
+            ตัวอย่างเช่น จากัวร์ งูอนาคอนดา ลิงทามาริน และกบพิษสีสด สัตว์บางชนิดยังไม่ถูกค้นพบหรือศึกษาทางวิทยาศาสตร์</p>
+        <div class="image-card">
+          <img src="img/งู.jpg" alt="สัตว์ป่าอเมซอน">
+        </div>
+      </div>
+
   </body>
 </html>
